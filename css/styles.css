@@ -44,6 +44,14 @@ span{
     font-size: 20px;
     font-family: 'Overpass', sans-serif;
 }
+span:hover{
+    cursor: pointer;
+    background-color:hsl(217, 12%, 63%);
+    color:hsl(0, 0%, 100%) ;
+}
+.selected{
+    background-color: hsl(25, 97%, 53%);
+}
 button{
     width: 350px;
     background-color: hsl(25, 97%, 53%);
@@ -53,4 +61,40 @@ button{
     color:hsl(0, 0%, 100%) ;
     margin: 25px auto 25px auto;
     display: block;
+}
+button:hover{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+#thankYouSection{
+    display: none;
+}
+#thankYouSection{
+    width: 375px;
+    background-color: hsl(213, 19%, 18%);
+    margin: auto;
+    border-radius: 15px;
+    padding: 40px 25px 25px 25px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.hidden > p:nth-child(2){
+    height: 35px;
+    width: 220px;
+    margin: 25px auto 25px auto;
+    color: hsl(25, 97%, 53%);
+    line-height: 35px;
+    border-radius: 35px;
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(213, 19%, 22%);
+}
+.hidden >h1{
+    font-family: 'Overpass', sans-serif;
+    margin-top: 30px;
+}
+.hidden p:last-child{
+    margin-bottom: 40px;
 }
